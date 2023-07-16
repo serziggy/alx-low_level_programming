@@ -1,15 +1,17 @@
-#include <stdio.h>
-#include <string.h>
-#include <unistd.h>
+#include "stdio.h"
+#include "string.h"
+#include "unistd.h"
+
 /**
- * main - A c program that prints a line to the standard error
+ * main - Main program
  *
  * Return: 1
  */
 
+
 int main(void)
 {
-write(1, "and that piece of art is useful\" - Dora korpar, 2015-10-19\n", 59);
+	write(1, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
 
-return (1);
+	return (1);
 }
